@@ -1,0 +1,19 @@
+server:
+  port: 8082
+
+spring:
+  security:
+    user:
+      name: ENC(Mj9O7iuGle37rMIHZB63h08vC7rZNgFD)
+      password: ENC(BRbgx8TcV3YgOKusitAyakUGL2NfytHq)
+  boot:
+    admin:
+      notify:
+        mail:
+          enabled: true
+          ignore-changes: "UNKNOWN:UP"
+          from: "Customer Technical Support <swit.cts@swit.io>"
+#Jasypt
+jasypt:
+  encryptor:
+    bean: jasyptStringEncryptor
